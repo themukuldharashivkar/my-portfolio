@@ -47,7 +47,7 @@ const Me = () => {
 
           <Link href="/#portfolio">
             <div className="group flex items-center justify-center my-8 border-2 border-amber-500 bg-black text-white hover:text-amber-500 px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
-              my portfolio
+              portfolio
               <span className="-rotate-90 duration-100 ease-in group-hover:-rotate-180">
                 <MdExpandMore size={25} />
               </span>
