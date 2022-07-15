@@ -19,7 +19,7 @@ const HomePage = () => {
         </div>
 
         <h1 className="uppercase font-bold text-black text-6xl">
-          Who am I?
+          Developer | Coder | Gamer
         </h1>
 
         <p className="text-black text-xl max-w-sm mx-auto font-bold">
