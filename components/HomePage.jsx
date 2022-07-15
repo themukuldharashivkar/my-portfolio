@@ -18,7 +18,7 @@ const HomePage = () => {
         </div>
         </div>
 
-        <h1 className="uppercase font-bold text-black text-6xl">
+        <h1 className="uppercase font-bold text-black text-4xl">
           Developer | Coder | Gamer
         </h1>
 
