@@ -131,6 +131,7 @@ const Navbar = () => {
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-amber-500 p-3 cursor-pointer bg-zinc-900 hover:bg-amber-500">
                   <FaLinkedin size={25} />
+                  <link href = "https://linkedin.com/in/themukuldharashivkar"/>
                 </div>
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-amber-500 p-3 cursor-pointer bg-zinc-900 hover:bg-amber-500">
                   <FaTwitter size={25} />
