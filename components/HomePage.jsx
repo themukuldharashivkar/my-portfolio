@@ -11,26 +11,27 @@ const HomePage = () => {
     
     
     <div id="home" className="h-screen w-full text-center" style={{ backgroundImage: "url(/assets/background.jpg)" }}>
-      <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
+      <div className="py-4 max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
       <div className="w-64.5 h-64.5 rounded-xl border-8 border-amber-500 shadow-xl">
-        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl">
+        <div className="w-44 h-44 mx-auto overflow-hidden rounded-xl">
           <Image src={heroImage} alt="me" />
         </div>
         </div>
 
-        <h1 className="uppercase font-bold text-black text-4xl">
-          Developer | Coder | Gamer
+        <h1 className="py-4 uppercase font-bold text-black text-4xl">
+          Developer | Coder | Software Geek
         </h1>
 
-        <p className="text-black text-xl max-w-sm mx-auto font-bold">
-          I am Mukul Dharashivkar, a Software Developer and Gamer.
-          <p> I am a fresher in software development scene, I can write professional programs in Python, C and C++, Java, HTML, Javascript and CSS. To sum it up, I LOVE CODING.
-          </p>
+        <p className="text-black text-xl max-w-sm mx-auto">
+          Hello ! I am Mukul Dharashivkar, a Software Developer and Gamer.
+        </p>
+        <p className="text-black text-xl max-w-sm mx-auto">
+          Click ABOUT ME to know more.
         </p>
 
         <Link href="/#me">
           <div className="group flex items-center justify-center my-8 bg-black text-white border-2 border-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:text-amber-500">
-            know more
+            about me
             <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
               <MdExpandMore size={25} />
             </span>

@@ -33,11 +33,11 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "experience",
+      link: "skills",
     },
     {
       id: 4,
-      link: "me",
+      link: "about",
     },
     {
       id: 5,
@@ -83,14 +83,14 @@ const Navbar = () => {
       <div
         className={
           navigation
-            ? "md:hidden fixed left-0 top-0 w-full h-full bg-black/70 backdrop-blur"
+            ? "md:hidden fixed left-0 top-0 w-full h-full bg-black/80 backdrop-blur"
             : ""
         }
       >
         <div
           className={
             navigation
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-zinc-800 to-amber-600 text-white p-10 ease-in duration-500"
+              ? "fixed right-0 top-0 w-4/5 h-full bg-zinc-800 text-white p-10 ease-in duration-500"
               : "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"
           }
         >
@@ -129,16 +129,16 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-amber-500 p-3 cursor-pointer bg-zinc-900 hover:bg-amber-500">
                   <FaLinkedin size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-amber-500 p-3 cursor-pointer bg-zinc-900 hover:bg-amber-500">
                   <FaTwitter size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-amber-500 p-3 cursor-pointer bg-zinc-900 hover:bg-amber-500">
                   <FaFacebook size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-amber-500 p-3 cursor-pointer bg-zinc-900 hover:bg-amber-500">
                   <FaGithub size={25} />
                 </div>
               </div>
