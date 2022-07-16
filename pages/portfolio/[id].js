@@ -1,8 +1,10 @@
 import React from "react";
+// import tictactoe from "../public/assets/portfolio/tictactoe.jpg";
 import installNode from "../../public/assets/portfolio/installNode.jpg";
 import reactParallax from "../../public/assets/portfolio/reactParallax.jpg";
 import usestate from "../../public/assets/portfolio/usestate.jpg";
 import reactWeather from "../../public/assets/portfolio/reactWeather.jpg";
+// import calculaator from "../../public/assets/portfolio/calculaator.jpg";
 
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
@@ -11,27 +13,27 @@ import Link from "next/link";
 import Image from "next/image";
 
 const portfolios = [
-  {
-    id: 1,
-    title: "react weather app",
-    imageSrc: reactWeather,
-    url: "react-weather",
-  },
-  {
-    id: 2,
-    title: "install node",
-    imageSrc: installNode,
-    url: "install-node",
-  },
-  {
-    id: 3,
-    title: "use state explained",
-    imageSrc: usestate,
-    url: "use-state-hook",
-  },
+  // {
+  //   id: 1,
+  //   title: "calculator app",
+  //   imageSrc: calculaator,
+  //   url: "https://62d2a3e17de22d78bc84d50d--serene-blancmange-3c7c15.netlify.app/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Tic Tac Toe Game",
+  //   imageSrc: tictactoe,
+  //   url: "https://tic-tac-toe-game-md.netlify.app/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "use state explained",
+  //   imageSrc: usestate,
+  //   url: "use-state-hook",
+  // },
   {
     id: 4,
-    title: "react parallax scroll",
+    title: "Project 1",
     imageSrc: reactParallax,
     url: "react-parallax",
   },
@@ -60,17 +62,17 @@ export async function getStaticProps({ params }) {
 
 const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
   return (
-    <div className="h-fit w-full text-center">
+    <div className="h-fit w-full text-center bg-zinc-800">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
         <div className="flex">
           <Link href="/portfolio">
-            <div className="flex items-center justify-center my-8 text-indigo-500 font-bold capitalize cursor-pointer">
+            <div className="flex items-center justify-center my-8 text-amber-500 font-bold capitalize cursor-pointer">
               <BiChevronLeft size={25} /> back
             </div>
           </Link>
         </div>
 
-        <h1 className="capitalize text-4xl mt-2 mb-8 text-center md:text-left font-bold text-blue-500 tracking-wider">
+        <h1 className="capitalize text-4xl mt-2 mb-8 text-center md:text-left font-bold text-amber-500 tracking-wider">
           {title}
         </h1>
 
@@ -78,11 +80,11 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
           <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />
         </div>
 
-        <h2 className="text-center md:text-left my-4 text-2xl font-bold">
+        <h2 className="text-center md:text-left my-4 text-2xl font-bold text-white">
           Description
         </h2>
 
-        <p>
+        <p className="text-white">
           Human thy god sainted is the distinctly shrieked grave bird shrieked,
           yore borrow nevermore but gaunt maiden have nothing darkness, answer
           evermore word there from raven, sorrowsorrow from on and nevermore of
@@ -96,7 +98,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
 
         <div className="flex items-center justify-center gap-10">
           <Link href="/">
-            <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer border-2 border-white bg-amber-500 hover:text-black">
               demo
               <span className="duration-200 ease-in">
                 <AiOutlineCaretRight size={18} className="ml-2" />
@@ -104,9 +106,9 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
             </div>
           </Link>
 
-          <Link href="https://github.com/theyashpatel">
-            <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
-              my portfolio
+          <Link href="https://github.com/theyashmukuldharashivkar">
+            <div className="group flex items-center justify-center my-8 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer border-2 border-white bg-amber-500 hover:text-black">
+              Github
               <span className="duration-200 ease-in">
                 <FaGithub size={18} className="ml-2" />
               </span>
