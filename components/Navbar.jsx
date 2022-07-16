@@ -29,7 +29,7 @@ const Navbar = () => {
     },
     {
       id: 2,
-      link: "portfolio",
+      link: "about",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      link: "about",
+      link: "portfolio",
     },
     {
       id: 5,
