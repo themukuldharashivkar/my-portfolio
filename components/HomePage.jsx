@@ -29,7 +29,7 @@ const HomePage = () => {
           Click ABOUT ME to know more.
         </p>
 
-        <Link href="/#me">
+        <Link href="/#about">
           <div className="group flex items-center justify-center my-8 bg-black text-white border-2 border-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:text-amber-500">
             about me
             <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
