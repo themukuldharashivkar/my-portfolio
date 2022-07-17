@@ -13,12 +13,12 @@ const About = () => {
               Who am I?
             </h2>
             <h4 className="py-4 max-w-2xl mx-20 font-header text-xl font-medium text-white sm:text-2xl lg:text-3xl">
-              I am Mukul Dharashivkar, a Software Developer & Gamer
+              I&apos;m Mukul Dharashivkar, a Software Developer & Gamer
             </h4>
             <p className="py-4 max-w-2xl mx-20 text-white font-body leading-relaxed">
               I am a fresher in software development scene, I can write professional
               programs in Python, C and C++, Java, HTML, Javascript and CSS. I have done
-              my Bachelors of Engineeing from Progressive Education Society Modern Colleges
+              my Bachelors of Engineeing from Progressive Education Society&apos;s Modern Colleges
               of Engineering, Pune, Maharashtra -IN. I am just fascinated about the automation
               of tasks that coding brings into play. To sum it up, I LOVE CODING.
             </p>
@@ -72,7 +72,7 @@ const About = () => {
           <Link href="/resume.pdf" download={true}>
             <div className="group flex items-center justify-center my-8 border-2 border-amber-500 bg-black text-white hover:text-amber-500 px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               resume
-              <span className="-rotate-90 duration-100 ease-in group-hover:rotate-90">
+              <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
                 <MdExpandMore size={25} />
               </span>
             </div>
@@ -81,7 +81,7 @@ const About = () => {
           <Link href="/#portfolio">
             <div className="group flex items-center justify-center my-8 border-2 border-amber-500 bg-black text-white hover:text-amber-500 px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               portfolio
-              <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
+              <span className="-rotate-90 duration-100 ease-in group-hover:-rotate-180">
                 <MdExpandMore size={25} />
               </span>
             </div>
